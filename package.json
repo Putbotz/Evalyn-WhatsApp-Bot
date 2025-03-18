@@ -1,0 +1,81 @@
+{
+  "name": "VynaaAI",
+  "version": "10.21.0",
+  "description": "WhatsApp bot new era",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "termux-whatsapp-bot",
+    "whatsapp-bot",
+    "whatsapp",
+    "js-whatsapp",
+    "whatsapp",
+    "wabot-aq"
+  ],
+  "homepage": "https://github.com/VynaaValerie/VynaaValerie",
+  "author": "VynaaValerie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VynaaValerie/VynaaValerie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VynaaValerie/VynaaValerie/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:Rapikz-kwontwol/KontolodonBail",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "archiver": "^7.0.1",
+    "awesome-phonenumber": "^2.68.0",
+    "axios": "^1.7.7",
+    "cfonts": "^3.1.1",
+    "chalk": "^5.0.1",
+    "cheerio": "^1.0.0",
+    "colors": "1.4.0",
+    "date-fns-tz": "^3.2.0",
+    "express": "^4.18.1",
+    "ffmpeg": "*",
+    "file-type": "^18.0.0",
+    "fluent-ffmpeg": "*",
+    "form-data": "^4.0.0",
+    "formdata-node": "^5.0.0",
+    "got": "12.5.3",
+    "human-readable": "^0.2.1",
+    "jimp": "^0.16.1",
+    "jsdom": "^19.0.0",
+    "libphonenumber-js": "^1.11.17",
+    "link-preview-js": "^3.0.5",
+    "lodash": "^4.17.21",
+    "lowdb": "^5.0.5",
+    "moment-timezone": "^0.5.41",
+    "mongoose": "^7.0.0",
+    "node-cache": "*",
+    "node-cron": "^3.0.3",
+    "node-fetch": "*",
+    "node-os-utils": "^1.3.6",
+    "p-retry": "^6.2.1",
+    "perf_hooks": "^0.0.1",
+    "performance-now": "^2.1.0",
+    "pino": "^8.11.0",
+    "platform": "^1.3.6",
+    "qs": "^6.11.0",
+    "readline": "^1.3.0",
+    "similarity": "^1.2.1",
+    "syntax-error": "^1.4.0",
+    "url-regex-safe": "^3.0.0",
+    "util": "^0.12.5",
+    "wa-sticker-formatter": "^4.3.2",
+    "ws": "^8.14.2",
+    "xmldom": "^0.6.0",
+    "yargs": "^17.7.1",
+    "yt-search": "^2.12.1"
+  }
+}
